@@ -1,0 +1,311 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://homologacao.clearsale.com.br/integracaov2/Service.asmx
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsdl="http://www.clearsale.com.br/integration"
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:int="http://www.clearsale.com.br/integration"><env:Body><wsdl:GetOrderStatus><int:orderID>123456</int:orderID><int:entityCode>6F261319-4E36-45E7-9652-4B08F21ABB25</int:entityCode></wsdl:GetOrderStatus></env:Body></env:Envelope>
+    headers:
+      Soapaction:
+      - '"http://www.clearsale.com.br/integration/GetOrderStatus"'
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '544'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Wed, 29 Jul 2020 20:14:13 GMT
+      Expires:
+      - Wed, 29 Jul 2020 20:14:12 GMT
+      Server:
+      - Microsoft-IIS/10.0
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '601'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetOrderStatusResponse
+        xmlns=\"http://www.clearsale.com.br/integration\"><GetOrderStatusResult>&lt;?xml
+        version=\"1.0\" encoding=\"utf-16\"?&gt;\r\n&lt;ClearSale&gt;\r\n  &lt;Orders&gt;\r\n
+        \   &lt;Order d3p1:nil=\"true\" xmlns:d3p1=\"http://www.w3.org/2001/XMLSchema-instance\"
+        /&gt;\r\n  &lt;/Orders&gt;\r\n&lt;/ClearSale&gt;</GetOrderStatusResult></GetOrderStatusResponse></soap:Body></soap:Envelope>"
+  recorded_at: Wed, 29 Jul 2020 17:14:06 GMT
+- request:
+    method: post
+    uri: https://homologacao.clearsale.com.br/integracaov2/Service.asmx
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsdl="http://www.clearsale.com.br/integration"
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:int="http://www.clearsale.com.br/integration"><env:Body><wsdl:GetOrderStatus><int:orderID>123456</int:orderID><int:entityCode>6F261319-4E36-45E7-9652-4B08F21ABB25</int:entityCode></wsdl:GetOrderStatus></env:Body></env:Envelope>
+    headers:
+      Soapaction:
+      - '"http://www.clearsale.com.br/integration/GetOrderStatus"'
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '544'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Wed, 29 Jul 2020 20:14:13 GMT
+      Expires:
+      - Wed, 29 Jul 2020 20:14:12 GMT
+      Server:
+      - Microsoft-IIS/10.0
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '601'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetOrderStatusResponse
+        xmlns=\"http://www.clearsale.com.br/integration\"><GetOrderStatusResult>&lt;?xml
+        version=\"1.0\" encoding=\"utf-16\"?&gt;\r\n&lt;ClearSale&gt;\r\n  &lt;Orders&gt;\r\n
+        \   &lt;Order d3p1:nil=\"true\" xmlns:d3p1=\"http://www.w3.org/2001/XMLSchema-instance\"
+        /&gt;\r\n  &lt;/Orders&gt;\r\n&lt;/ClearSale&gt;</GetOrderStatusResult></GetOrderStatusResponse></soap:Body></soap:Envelope>"
+  recorded_at: Wed, 29 Jul 2020 17:14:06 GMT
+- request:
+    method: post
+    uri: https://homologacao.clearsale.com.br/integracaov2/Service.asmx
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsdl="http://www.clearsale.com.br/integration"
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:int="http://www.clearsale.com.br/integration"><env:Body><wsdl:GetOrderStatus><int:orderID>123456</int:orderID><int:entityCode>6F261319-4E36-45E7-9652-4B08F21ABB25-oyuy</int:entityCode></wsdl:GetOrderStatus></env:Body></env:Envelope>
+    headers:
+      Soapaction:
+      - '"http://www.clearsale.com.br/integration/GetOrderStatus"'
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '549'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Wed, 29 Jul 2020 21:53:53 GMT
+      Expires:
+      - Wed, 29 Jul 2020 21:53:53 GMT
+      Server:
+      - Microsoft-IIS/10.0
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '588'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetOrderStatusResponse
+        xmlns=\"http://www.clearsale.com.br/integration\"><GetOrderStatusResult>&lt;?xml
+        version=\"1.0\" encoding=\"utf-16\"?&gt;\r\n&lt;TransactionStatus&gt;\r\n
+        \ &lt;StatusCode&gt;UserNotFound&lt;/StatusCode&gt;\r\n  &lt;Message&gt;UserNotFound&lt;/Message&gt;\r\n&lt;/TransactionStatus&gt;</GetOrderStatusResult></GetOrderStatusResponse></soap:Body></soap:Envelope>"
+  recorded_at: Wed, 29 Jul 2020 18:53:47 GMT
+- request:
+    method: post
+    uri: https://homologacao.clearsale.com.br/integracaov2/Service.asmx
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsdl="http://www.clearsale.com.br/integration"
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:int="http://www.clearsale.com.br/integration"><env:Body><wsdl:GetOrderStatus><int:orderID>123456</int:orderID><int:entityCode>6F261319-4E36-45E7-9652-4B08F21ABB25-oyuy</int:entityCode></wsdl:GetOrderStatus></env:Body></env:Envelope>
+    headers:
+      Soapaction:
+      - '"http://www.clearsale.com.br/integration/GetOrderStatus"'
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '549'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Wed, 29 Jul 2020 21:53:53 GMT
+      Expires:
+      - Wed, 29 Jul 2020 21:53:53 GMT
+      Server:
+      - Microsoft-IIS/10.0
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '588'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetOrderStatusResponse
+        xmlns=\"http://www.clearsale.com.br/integration\"><GetOrderStatusResult>&lt;?xml
+        version=\"1.0\" encoding=\"utf-16\"?&gt;\r\n&lt;TransactionStatus&gt;\r\n
+        \ &lt;StatusCode&gt;UserNotFound&lt;/StatusCode&gt;\r\n  &lt;Message&gt;UserNotFound&lt;/Message&gt;\r\n&lt;/TransactionStatus&gt;</GetOrderStatusResult></GetOrderStatusResponse></soap:Body></soap:Envelope>"
+  recorded_at: Wed, 29 Jul 2020 18:53:47 GMT
+- request:
+    method: post
+    uri: https://homologacao.clearsale.com.br/integracaov2/Service.asmx
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsdl="http://www.clearsale.com.br/integration"
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:int="http://www.clearsale.com.br/integration"><env:Body><wsdl:GetOrderStatus><int:orderID>123456</int:orderID><int:entityCode>6F261319-4E36-45E7-9652-4B08F21ABB25-khkhk</int:entityCode></wsdl:GetOrderStatus></env:Body></env:Envelope>
+    headers:
+      Soapaction:
+      - '"http://www.clearsale.com.br/integration/GetOrderStatus"'
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '550'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Wed, 29 Jul 2020 23:08:20 GMT
+      Expires:
+      - Wed, 29 Jul 2020 23:08:19 GMT
+      Server:
+      - Microsoft-IIS/10.0
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '588'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetOrderStatusResponse
+        xmlns=\"http://www.clearsale.com.br/integration\"><GetOrderStatusResult>&lt;?xml
+        version=\"1.0\" encoding=\"utf-16\"?&gt;\r\n&lt;TransactionStatus&gt;\r\n
+        \ &lt;StatusCode&gt;UserNotFound&lt;/StatusCode&gt;\r\n  &lt;Message&gt;UserNotFound&lt;/Message&gt;\r\n&lt;/TransactionStatus&gt;</GetOrderStatusResult></GetOrderStatusResponse></soap:Body></soap:Envelope>"
+  recorded_at: Wed, 29 Jul 2020 20:08:13 GMT
+- request:
+    method: post
+    uri: https://homologacao.clearsale.com.br/integracaov2/Service.asmx
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsdl="http://www.clearsale.com.br/integration"
+        xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+        xmlns:int="http://www.clearsale.com.br/integration"><env:Body><wsdl:GetOrderStatus><int:orderID>123456</int:orderID><int:entityCode>6F261319-4E36-45E7-9652-4B08F21ABB25-khkhk</int:entityCode></wsdl:GetOrderStatus></env:Body></env:Envelope>
+    headers:
+      Soapaction:
+      - '"http://www.clearsale.com.br/integration/GetOrderStatus"'
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '550'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Wed, 29 Jul 2020 23:08:20 GMT
+      Expires:
+      - Wed, 29 Jul 2020 23:08:20 GMT
+      Server:
+      - Microsoft-IIS/10.0
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Content-Length:
+      - '588'
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><GetOrderStatusResponse
+        xmlns=\"http://www.clearsale.com.br/integration\"><GetOrderStatusResult>&lt;?xml
+        version=\"1.0\" encoding=\"utf-16\"?&gt;\r\n&lt;TransactionStatus&gt;\r\n
+        \ &lt;StatusCode&gt;UserNotFound&lt;/StatusCode&gt;\r\n  &lt;Message&gt;UserNotFound&lt;/Message&gt;\r\n&lt;/TransactionStatus&gt;</GetOrderStatusResult></GetOrderStatusResponse></soap:Body></soap:Envelope>"
+  recorded_at: Wed, 29 Jul 2020 20:08:14 GMT
+recorded_with: VCR 6.0.0
