@@ -119,7 +119,7 @@ order = {
 
 Requesting analysis
 ```ruby
-  response = ClearsaleClean::Analysis::SenOrder.new(order).send_order
+  response = ClearsaleClean::Analysis::SendOrder.new(order).send_order
   response
   # => {:order_id=>1235, :score=>0.0, :status=>:waiting}
   # => {:status=>:order_not_accepted, :message=>"Pedido 1234 já existe e não está como reanalise."}
