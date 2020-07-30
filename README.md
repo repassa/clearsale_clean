@@ -1,7 +1,8 @@
 # ClearsaleClean
 
 Gem based on the https://github.com/Baby-com-br/clearsale gem, my thanks to Daniel Konishi.
-Gem for shipping and checking orders at ClearSale.
+
+Gem for send and checking orders at ClearSale.
 
 ## Installation
 
